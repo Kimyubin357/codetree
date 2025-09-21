@@ -1,4 +1,4 @@
 let a = 3;
-let b = 'c';
+let b = 'C';
 
 console.log(b+'!.....!'+a);
