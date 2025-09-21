@@ -1,6 +1,6 @@
 let [a, b] = [2, 6];
 
-b = a;
+a = b;
 
 console.log(a);
 console.log(b);
