@@ -1,4 +1,4 @@
 let a = 3;
 let b = 'C';
 
-console.log(a+'...'+c);
+console.log(a+'...'+b);
