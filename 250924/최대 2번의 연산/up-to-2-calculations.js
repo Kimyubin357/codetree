@@ -5,8 +5,10 @@ let a = fs.readFileSync(0).toString();
 a = Number(a);
 
 if(a % 2 === 0){
-    console.log(parseInt(a / 2));
+    a = parseInt(a/2);
+    console.log(a);
 }
 if(a % 2 === 1){
-    console.log(parseInt((a+1)/2));
+    a = parseInt((a + 1) / 2);
+    console.log(a);
 }
