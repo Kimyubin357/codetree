@@ -4,4 +4,4 @@ let n = fs,readFileSync(0).toString().trim();
 
 n = Number(n);
 
-console.log(n == 1 ? 't' : 'f');
+console.log(n === 1 ? 't' : 'f');
