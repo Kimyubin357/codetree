@@ -8,6 +8,6 @@ if(m >= 3 && m <= 5){
     console.log("Summer");
 }else if(m >= 9 && m <= 11){
     console.log("Fall");
-}else if(m == 12 && m <= 2){
+}else {
     console.log("Winter");
 }
