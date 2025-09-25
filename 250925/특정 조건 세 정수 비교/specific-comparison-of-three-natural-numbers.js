@@ -13,3 +13,4 @@ if(a == b && b == c && c == a){
 }else{
     result += 0;
 }
+console.log(result)
