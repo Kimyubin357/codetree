@@ -14,5 +14,6 @@ whlie(N <= 100){
     }else{
         result += 'F' + ' ';
     }
+    N++;
 }
 console.log(result);
