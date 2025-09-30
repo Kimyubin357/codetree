@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-let N = Number(fs.readFileSync(0).toStirng());
+let N = Number(fs.readFileSync(0).toString());
 let result = '';
-whlie(N <= 100){
+while(N <= 100) {
     if(N >= 90){
         result += 'A' + ' ';
     }else if(N >= 80){
