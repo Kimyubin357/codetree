@@ -4,10 +4,10 @@ let n = Number(fs.readFileSync(0).toString());
 
 let sum = 0;
 for(let i = 1; i <= 100; i++){
-    if(sum + i > n){
+    sum += i;
+    if(sum >= n){
+        console.log(sum);
         break;
     }
-    sum += i;
+    
 }
-
-console.log(sum);
