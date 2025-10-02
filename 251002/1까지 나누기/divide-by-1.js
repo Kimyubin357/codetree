@@ -5,7 +5,7 @@ let cnt = 0;
 let i = 1;
 while(n > 1){
     cnt++;
-    n /= i;
+    n = parseInt(n/i);
     i++;
     if(n <= 1){
         console.log(cnt);
