@@ -4,7 +4,7 @@ let n = fs.readFileSync(0).toString().trim().split('\n').map(Number);
 let i = 0;
 let sum = 0;
 let cnt = 0;
-while(n[i] < 30){
+while(n[i] < 30 && n[i] > 19){
     sum += n[i];
     cnt++;
     i++;
